@@ -1,0 +1,153 @@
+/*
+===============================================================================
+- YunoInfinite theme, made with ♥ by Finger-san
+
+Based on Clouds theme from YunoHost and released under AGPL-3.0, see the
+LICENSE file for more info.
+===============================================================================
+*/
+
+/*
+===============================================================================
+ This file contain extra CSS rules to customize the YunoHost user portal and
+ can be used to customize app tiles, buttons, etc...
+===============================================================================
+*/
+
+/* Loading Source Code Pro Regular & Bold */
+@font-face {
+  font-family: 'source_code_probold';
+  src: url('fonts/sourceCodePro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_code_proregular';
+  src: url('fonts/sourceCodePro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Login page customization */
+
+.messages {
+  font-family: 'source_code_probold';
+  color: #FFF;
+}
+.messages.info {
+  background: rgba(0, 0, 0, 0.6);
+  border-style: solid;
+  border-color: rgba(255, 197, 8, 0.8);
+}
+.messages.danger {
+  background: rgba(100, 0, 0, 0.8);
+}
+
+.login-form .form-group {
+  background: none;
+}
+.login-form .form-text {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 197, 8);
+}
+
+/* Edit profile page, fitting the Infinite Kekeness */
+
+.btn {
+  font-family: 'source_code_proregular';
+}
+.btn:hover {
+  font-family: 'source_code_probold';
+}
+.link-btn {
+  background: rgba(0, 0, 0, 0.6);
+}
+.link-btn:hover {
+  font-family: ('source_code_probold');
+  text-decoration: none;
+  background: rgba(255, 197, 8, 0.8);
+  color: black;
+}
+.classic-btn {
+  background: rgba(0, 0, 0, 0.6);
+}
+.classic-btn:hover {
+  font-family: ('source_code_probold');
+  background: rgba(255, 197, 8, 0.8);
+  color: black;
+}
+
+.form-text {
+  font-family: 'source_code_proregular';
+  background: rgba(50, 50, 50, 0.8);
+}
+.validate-btn {
+  font-family: 'source_code_proregular';
+  background: rgba(0, 50, 0, 0.8);
+}
+.validate-btn:hover {
+  font-family: 'source_code_probold';
+  color: black;
+}
+.form-group {
+  font-family: 'source_code_probold' !important;
+}
+
+/* Make page texts yellow */
+.user-container h2,
+.user-container small,
+.user-container .user-mail,
+.user-container .user-mail,
+.content .footer a,
+a.app-tile,
+#ynh-logout {
+  color: rgb(255, 197, 8) !important;
+  font-family: 'source_code_proregular'; /* Font changed */
+}
+
+#ynh-logout:hover {
+  font-family: 'source_code_probold';
+  color: black !important;
+  background-color: rgb(225, 197, 8);
+}
+
+.user-container .user-username {
+  font-family: 'source_code_probold';
+}
+
+.user-container .user-fullname {
+  font-family: 'source_code_proregular';
+}
+
+.ynh-user-portal {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Apps colors */
+.app-tile {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-style: solid;
+  border-color: rgba(255, 197, 8);
+}
+.app-tile:hover {
+  background-image: url("./tileHoverTexture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-tile:hover:after,
+.app-tile:focus:after,
+.app-tile:hover:before,
+.app-tile:focus:before {
+    background: rgba(255, 197, 8, 0.8) !important;
+}
+
+/* Use a custom logo image */
+#ynh-logo {
+  z-index: 10;
+  background-image: url("./yunoInfinite.png");
+}
