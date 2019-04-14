@@ -1,4 +1,4 @@
-<img src="https://github.com/Finger-san/yunohost-theme-yunoinfinite/raw/screenshots/yunoInfiniteDark.png" alt="YunoInfinite Logo" width="128" height="128">
+<img src="https://raw.githubusercontent.com/yunohost-themes/yunoInfinite/screenshots/yunoInfiniteDark.png" alt="YunoInfinite Logo" width="128" height="128">
 
 # yunohost-theme-yunoinfinite
 
@@ -12,5 +12,5 @@ https://yunohost.org/#/theming
 
 ## Screenshots
 
-![Screen1](https://raw.githubusercontent.com/Finger-san/yunohost-theme-yunoinfinite/screenshots/screen1.png)
-![Screen2](https://raw.githubusercontent.com/Finger-san/yunohost-theme-yunoinfinite/screenshots/screen2.png)
+![Screen1](https://raw.githubusercontent.com/yunohost-themes/yunoInfinite/screenshots/screen1.jpg)
+![Screen2](https://raw.githubusercontent.com/yunohost-themes/yunoInfinite/screenshots/screen2.jpg)
