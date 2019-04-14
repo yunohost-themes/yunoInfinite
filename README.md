@@ -12,5 +12,5 @@ https://yunohost.org/#/theming
 
 ## Screenshots
 
-[Screen1](https://raw.githubusercontent.com/Finger-san/yunohost-theme-yunoinfinite/screenshots/screen1.png)
-[Screen2](https://raw.githubusercontent.com/Finger-san/yunohost-theme-yunoinfinite/screenshots/screen2.png)
+![Screen1](https://raw.githubusercontent.com/Finger-san/yunohost-theme-yunoinfinite/screenshots/screen1.png)
+![Screen2](https://raw.githubusercontent.com/Finger-san/yunohost-theme-yunoinfinite/screenshots/screen2.png)
