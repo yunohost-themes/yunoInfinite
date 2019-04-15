@@ -6,7 +6,7 @@
         "en": "A theme inspired by the Rez/Rez:Infinite game from United Game Artists",
         "fr": "Un thème inspiré par le jeu Rez/Rez:Infinite de United Game Artists"
     },
-    "version": "0.2",
+    "version": "0.2.2",
     "url": "https://github.com/yunohost-themes/yunoInfinite",
     "license": "AGPL-3.0",
     "maintainer": {
